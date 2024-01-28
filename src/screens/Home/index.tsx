@@ -20,35 +20,35 @@ export function Home() {
       id: 2,
       label: 'Pix Cliente X',
       value: 4300.33,
-      date: '11/05/2024',
+      date: '11/07/2024',
       type: 1, // Receita
     },
     {
       id: 3,
       label: 'Salário',
-      value: 9470.55,
-      date: '07/03/2024',
+      value: 22770.55,
+      date: '07/07/2024',
       type: 1, // Receita
     },
     {
       id: 4,
-      label: 'Salário',
-      value: 9470.55,
-      date: '07/03/2024',
-      type: 1, // Receita
+      label: 'Conta de Internet',
+      value: 175.50,
+      date: '04/07/2024',
+      type: 0, // Receita
     },
     {
       id: 5,
-      label: 'Salário',
-      value: 9470.55,
-      date: '07/03/2024',
+      label: 'Mercado',
+      value: 3730.45,
+      date: '03/07/2024',
       type: 0, // Receita
     },
     {
       id: 6,
       label: 'Salário',
-      value: 9470.55,
-      date: '07/03/2024',
+      value: 17470.55,
+      date: '11/06/2024',
       type: 1, // Receita
     },
     {

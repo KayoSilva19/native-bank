@@ -12,7 +12,8 @@ type Props = TouchableOpacityProps & {
   type?: TypeStyleProps,
 }
 
-export function CardBank({ descriptionTextBank, value, date, showValue, type = 0, ...rest }: Props) {
+export function CardBank({ descriptionTextBank, value, date, showValue,type = 0, ...rest }: Props) {
+
   return (
       <ContentBalanceBank {...rest}>
         <ContentDescriptionTextBank>
@@ -21,7 +22,7 @@ export function CardBank({ descriptionTextBank, value, date, showValue, type = 0
         </ContentDescriptionTextBank>
         <TextBalanceCurrency type={type}>
           {
-            showValue ? `R$ ${type === 0 ? `-${formatValue(value)}` : formatValue(value)}`
+            showValue ? `${type === 0 ? `-${formatValue(value)}` : formatValue(value)}`
             : <ValueHidden/>
           }
           
